@@ -14,19 +14,19 @@ files, in order to make it simpler to reverse the words.
 
 ## Subtask 1: Command Experiments
 ### 1A - Directories and Files
-[📷0] - Set up scratch directory whose name includes your student number
-[📷1] - Create a text file containing the first paragraph of Lorem Ipsum
-[📷2] - Check that the file was indeed created
+[📷0] - Set up scratch directory whose name includes your student number<br>
+[📷1] - Create a text file containing the first paragraph of Lorem Ipsum<br>
+[📷2] - Check that the file was indeed created<br>
 [📷3] - Check that the file contains the intended text
 
 ### 1B - Newlines / Separator Characters
-[📷4] - Run a command whose output is of the form *Lorem ipsum...elit,|sed do eiusmod...magna|aliqua...*
+[📷4] - Run a command whose output is of the form *Lorem ipsum...elit,|sed do eiusmod...magna|aliqua...*<br>
 [📷5] - Split the text again up in lines, each containing alternately a single word or a word-separating space/punctuation string.
 
 ### 1C - Hash substitutions
-[📷6] - Store one of the punctuations in a shell variable
-[📷7] - Devise a single command that will generate a file containing that string, with the hash as the file name
-[📷8] - Test this for several different punctuations, then check that the corresponding files have been created
+[📷6] - Store one of the punctuations in a shell variable<br>
+[📷7] - Devise a single command that will generate a file containing that string, with the hash as the file name<br>
+[📷8] - Test this for several different punctuations, then check that the corresponding files have been created<br>
 [📷9] - Check that the files have the intended content
 
 ## Subtask 2: Depunctuation Script
@@ -52,5 +52,5 @@ in an error.
 * Passes its output to the low-level reverser words-reverse-ll (since that will only be implemented in the next assignment, you can not test this part yet), unless invoked with --bypass, in which case this step is skipped or passed to cat instead.
 * Passes this output to repunctuate.sh, again with the lookup directory.
 * Gives back this final result on standard output.
-* Cleans up the hash lookups
+* Cleans up the hash lookups <br>
 [📷10] - Test the script extensively, with both the provided example text and input of your own choice.
