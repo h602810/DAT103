@@ -9,4 +9,5 @@ The assignment will demonstrate:
 This project consists of two parts:
 > Part I: A bash script that reads input, splits it up, uses standard tools to categorize it and writes/reads some
 files, in order to make it simpler to reverse the words.
+
 > Part II: An assembly program that does the simplified reversal operation.
